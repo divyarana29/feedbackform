@@ -120,7 +120,7 @@ const Form = () => {
     const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
 
     return (
-        <div className="h-full w-full bg-[url('https://wallpaperaccess.com/full/1284635.jpg')]">
+        <div className="h-full w-screen bg-[url('https://wallpaperaccess.com/full/1284635.jpg')]">
             <div className='flex justify-center items-center pt-12 md:pt-20'>
                 <div className="p-4 md:w-3/4 lg:w-1/2 xl:w-1/3">
                 
