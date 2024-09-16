@@ -25,7 +25,7 @@ const FirstPage = () => {
         </Link> }</div></div>
 
         
-        <div className="w=1/2">
+        <div className=" hidden sm:block w=1/2">
         <img
         class="object-cover object-center h-96"
         src="https://th.bing.com/th/id/R.0642236432e389eedb15755637ead478?rik=q6Ak4WizMJpZSw&riu=http%3a%2f%2fwww.photos-public-domain.com%2fwp-content%2fuploads%2f2010%2f10%2fwhite_daisies.jpg&ehk=jZkzIHbjcmh8Ls4q5XxOhfF2JfqUivm8ziRwBpl0JOI%3d&risl=&pid=ImgRaw&r=0"
