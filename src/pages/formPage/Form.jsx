@@ -85,17 +85,7 @@ const Form = () => {
         }
     };
 
-    const handleSkip = () => {
-        if (currentQuestionIndex < questions.length - 1) {
-            setCurrentQuestionIndex(currentQuestionIndex + 1);
-        } else {
-            const confirmSubmit = window.confirm('Do you want to submit the survey?');
-            if (confirmSubmit) {
-                submitSurvey();
-            }
-        }
-    };
-
+   
     const submitSurvey = () => {
         localStorage.setItem('surveyStatus', 'COMPLETED');
         setIsSurveyComplete(true);
